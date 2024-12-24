@@ -1,19 +1,33 @@
-# calculator
+# Calculator by Omar Rihani
 
-A new Flutter project created with FlutLab - https://flutlab.io
+Cette application est une calculatrice simple développée en Flutter. Elle permet de réaliser des calculs basiques avec une interface conviviale et des boutons intuitifs. L'application prend en charge des opérations comme l'addition, la soustraction, la multiplication, la division, et plus encore.
 
-## Getting Started
+## Fonctionnalités
 
-A few resources to get you started if this is your first Flutter project:
+- Calculs de base (addition, soustraction, multiplication, division).
+- Calcul de pourcentage.
+- Fonction de suppression (`Del`) pour supprimer les derniers caractères.
+- Fonction de réinitialisation (`C`) pour effacer tous les entrées.
+- Affichage du dernier résultat avec la fonctionnalité `Ans`.
+- Design moderne et intuitif.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+## Aperçu
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+L'application affiche deux sections principales :
+- **Entrée :** La première section de l'écran où l'utilisateur saisit son expression mathématique.
+- **Sortie :** La deuxième section qui affiche le résultat du calcul après avoir appuyé sur le bouton `=`.
 
-## Getting Started: FlutLab - Flutter Online IDE
+Les boutons de la calculatrice sont organisés dans une grille 4x5 et incluent les opérations et chiffres nécessaires.
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+## Installation
+
+### Prérequis
+
+- Vous devez avoir installé **Flutter** sur votre machine. Si ce n'est pas encore fait, veuillez suivre les instructions d'installation sur le site officiel de Flutter : [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install).
+
+### Étapes pour démarrer
+
+1. Clonez ce dépôt sur votre machine :
+
+   ```bash
+   git clone https://github.com/Omar-Rihani/calculator.git
